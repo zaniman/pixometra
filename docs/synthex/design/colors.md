@@ -8,74 +8,42 @@ Change one token to update all instances across the entire site instantly.
 .color-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
+  gap: 16px;
   margin: 20px 0;
 }
 
 .color-card {
-  border: 2px solid rgba(222, 233, 250, 0.3);
-  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
   overflow: hidden;
-  background: linear-gradient(135deg, rgba(28, 32, 52, 0.9) 0%, rgba(42, 49, 71, 0.9) 100%);
-  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-}
-
-.color-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 32px rgba(64, 255, 67, 0.2);
-  border-color: rgba(64, 255, 67, 0.4);
 }
 
 .color-swatch {
   width: 100%;
-  height: 120px;
-  border-bottom: 2px solid rgba(222, 233, 250, 0.2);
+  height: 100px;
 }
 
 .color-info {
-  padding: 18px;
-  background: rgba(21, 22, 36, 0.7);
+  padding: 16px;
 }
 
 .color-name {
-  font-weight: 700;
-  color: rgb(225, 230, 247);
+  font-weight: 600;
   margin-bottom: 8px;
-  font-size: 15px;
-  letter-spacing: 0.3px;
+  font-size: 14px;
 }
 
 .color-value {
   font-family: 'Monaco', 'Menlo', monospace;
-  font-size: 13px;
-  color: rgb(180, 190, 220);
-  margin-bottom: 12px;
+  font-size: 12px;
+  margin-bottom: 8px;
   word-break: break-all;
-  background: rgba(18, 20, 32, 0.5);
-  padding: 6px 8px;
-  border-radius: 4px;
-  display: inline-block;
-}
-
-.color-usage {
-  font-size: 13px;
-  color: rgb(180, 190, 220);
-  line-height: 1.6;
-  margin-top: 10px;
 }
 
 .color-token-path {
   font-family: 'Monaco', 'Menlo', monospace;
   font-size: 12px;
-  color: rgb(64, 255, 67);
-  margin-top: 10px;
-  opacity: 0.85;
-  display: block;
-  background: rgba(64, 255, 67, 0.08);
-  padding: 6px 8px;
-  border-radius: 4px;
-  border-left: 2px solid rgb(64, 255, 67);
+  margin-top: 8px;
 }
 </style>
 
@@ -89,7 +57,6 @@ Used inside Terminal Dashboard, Terminal Image, and all CRT-style UI elements. T
     <div class="color-info">
       <div class="color-name">TerminalPrimary</div>
       <div class="color-value">rgb(64, 255, 67)</div>
-      <div class="color-usage">Neon green accent for terminal elements, input lines, gauges, charts, and status indicators</div>
       <div class="color-token-path">/Terminal/TerminalPrimary</div>
     </div>
   </div>
@@ -99,17 +66,15 @@ Used inside Terminal Dashboard, Terminal Image, and all CRT-style UI elements. T
     <div class="color-info">
       <div class="color-name">TerminalSecondary</div>
       <div class="color-value">rgb(217, 186, 154)</div>
-      <div class="color-usage">Warm tan accent for terminal output text and secondary labels</div>
       <div class="color-token-path">/Terminal/TerminalSecondary</div>
     </div>
   </div>
 
   <div class="color-card">
-    <div class="color-swatch" style="background-color: rgba(222, 233, 250, 0.2); border: 1px dashed rgba(222, 233, 250, 0.4);"></div>
+    <div class="color-swatch" style="background-color: rgba(222, 233, 250, 0.2);"></div>
     <div class="color-info">
       <div class="color-name">TerminalLines</div>
       <div class="color-value">rgba(222, 233, 250, 0.2)</div>
-      <div class="color-usage">Semi-transparent light blue for panel borders and separator lines</div>
       <div class="color-token-path">/Terminal/TerminalLines</div>
     </div>
   </div>
@@ -125,7 +90,6 @@ Global brand identity colors used in buttons, links, badges, and non-terminal UI
     <div class="color-info">
       <div class="color-name">BrandPrimary</div>
       <div class="color-value">rgb(0, 207, 0)</div>
-      <div class="color-usage">Bright green for navigation states, links, and badges</div>
       <div class="color-token-path">/Brand/BrandPrimary</div>
     </div>
   </div>
@@ -135,7 +99,6 @@ Global brand identity colors used in buttons, links, badges, and non-terminal UI
     <div class="color-info">
       <div class="color-name">BrandSecondary</div>
       <div class="color-value">rgb(222, 168, 111)</div>
-      <div class="color-usage">Warm accent for secondary decorative details</div>
       <div class="color-token-path">/Brand/BrandSecondary</div>
     </div>
   </div>
@@ -153,7 +116,6 @@ Foundation colors for layout and typography.
     <div class="color-info">
       <div class="color-name">BackgroundBase</div>
       <div class="color-value">rgb(42, 49, 71)</div>
-      <div class="color-usage">Main page background</div>
       <div class="color-token-path">/Background/BackgroundBase</div>
     </div>
   </div>
@@ -163,7 +125,6 @@ Foundation colors for layout and typography.
     <div class="color-info">
       <div class="color-name">BackgroundElevated</div>
       <div class="color-value">rgb(21, 22, 36)</div>
-      <div class="color-usage">Elevated surfaces like cards and panels</div>
       <div class="color-token-path">/Background/BackgroundElevated</div>
     </div>
   </div>
@@ -173,7 +134,6 @@ Foundation colors for layout and typography.
     <div class="color-info">
       <div class="color-name">BackgroundTop</div>
       <div class="color-value">rgb(28, 29, 44)</div>
-      <div class="color-usage">Header and top bar background</div>
       <div class="color-token-path">/Background/BackgroundTop</div>
     </div>
   </div>
@@ -183,7 +143,6 @@ Foundation colors for layout and typography.
     <div class="color-info">
       <div class="color-name">BackgroundCanvas</div>
       <div class="color-value">rgb(18, 20, 32)</div>
-      <div class="color-usage">Canvas and viewport background</div>
       <div class="color-token-path">/Background/BackgroundCanvas</div>
     </div>
   </div>
@@ -197,7 +156,6 @@ Foundation colors for layout and typography.
     <div class="color-info">
       <div class="color-name">TextPrimary</div>
       <div class="color-value">rgb(225, 230, 247)</div>
-      <div class="color-usage">Main body text and headings</div>
       <div class="color-token-path">/Text/TextPrimary</div>
     </div>
   </div>
@@ -207,7 +165,6 @@ Foundation colors for layout and typography.
     <div class="color-info">
       <div class="color-name">TextSecondary</div>
       <div class="color-value">rgb(129, 137, 163)</div>
-      <div class="color-usage">Secondary and muted text</div>
       <div class="color-token-path">/Text/TextSecondary</div>
     </div>
   </div>
@@ -217,7 +174,6 @@ Foundation colors for layout and typography.
     <div class="color-info">
       <div class="color-name">TextMuted</div>
       <div class="color-value">rgb(90, 94, 120)</div>
-      <div class="color-usage">De-emphasized text and labels</div>
       <div class="color-token-path">/Text/TextMuted</div>
     </div>
   </div>
@@ -227,7 +183,6 @@ Foundation colors for layout and typography.
     <div class="color-info">
       <div class="color-name">TextError</div>
       <div class="color-value">rgb(255, 105, 51)</div>
-      <div class="color-usage">Error states and warning indicators</div>
       <div class="color-token-path">/Text/TextError</div>
     </div>
   </div>
