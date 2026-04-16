@@ -8,19 +8,25 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['meta', { name: 'theme-color', content: '#40ff43' }],
+    ['style', {}, `
+      .VPNav {
+        border-bottom: none !important;
+      }
+      .VPContent {
+        padding-top: 0 !important;
+      }
+      .VPHome {
+        padding-top: 48px !important;
+      }
+    `]
   ],
 
   themeConfig: {
-    logo: {
-      light: '/logo.svg',
-      dark: '/logo.svg',
-      alt: 'Pixometra'
-    },
+    siteTitle: 'Pixometra Docs',
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'SYNTHEX', link: '/synthex/welcome', activeMatch: '/synthex/' },
-      { text: 'GitHub', link: 'https://github.com/pixometra' }
+      { text: 'Synthex', link: '/synthex/welcome', activeMatch: '/synthex/' },
     ],
 
     sidebar: {
