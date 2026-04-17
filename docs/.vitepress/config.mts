@@ -26,67 +26,67 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Synthex', link: '/synthex/', activeMatch: '/synthex/' },
+      { text: 'Synthexa', link: '/synthexa/', activeMatch: '/synthexa/' },
     ],
 
     sidebar: {
-      '/synthex/': [
+      '/synthexa/': [
         {
           text: '📚 Introduction',
           items: [
-            { text: 'Welcome', link: '/synthex/' },
-            { text: 'What You Get', link: '/synthex/guide/what-you-get' },
+            { text: 'Welcome', link: '/synthexa/' },
+            { text: 'What You Get', link: '/synthexa/guide/what-you-get' },
           ]
         },
         {
           text: '🚀 Getting Started',
           items: [
-            { text: 'Duplicate the Template', link: '/synthex/guide/duplicate' },
-            { text: 'Framer Basics', link: '/synthex/guide/framer-basics' },
+            { text: 'Duplicate the Template', link: '/synthexa/guide/duplicate' },
+            { text: 'Framer Basics', link: '/synthexa/guide/framer-basics' },
           ]
         },
         {
           text: '📄 Pages',
           items: [
-            { text: 'Pages Overview', link: '/synthex/guide/pages-overview' },
-            { text: 'Editing Content', link: '/synthex/guide/editing-content' },
+            { text: 'Pages Overview', link: '/synthexa/guide/pages-overview' },
+            { text: 'Editing Content', link: '/synthexa/guide/editing-content' },
           ]
         },
         {
           text: '🗂️ CMS Collections',
           items: [
-            { text: 'Overview', link: '/synthex/guide/cms-overview' },
-            { text: 'Blog', link: '/synthex/guide/cms-blog' },
-            { text: 'Cases', link: '/synthex/guide/cms-cases' },
-            { text: 'Career', link: '/synthex/guide/cms-career' },
-            { text: 'Legal', link: '/synthex/guide/cms-legal' },
-            { text: 'Pricing', link: '/synthex/guide/cms-pricing' },
-            { text: 'How to Edit', link: '/synthex/guide/cms-edit' },
+            { text: 'Overview', link: '/synthexa/guide/cms-overview' },
+            { text: 'Blog', link: '/synthexa/guide/cms-blog' },
+            { text: 'Cases', link: '/synthexa/guide/cms-cases' },
+            { text: 'Career', link: '/synthexa/guide/cms-career' },
+            { text: 'Legal', link: '/synthexa/guide/cms-legal' },
+            { text: 'Pricing', link: '/synthexa/guide/cms-pricing' },
+            { text: 'How to Edit', link: '/synthexa/guide/cms-edit' },
           ]
         },
         {
           text: '🎨 Design System',
           items: [
-            { text: 'Colors', link: '/synthex/design/colors' },
-            { text: 'Typography', link: '/synthex/design/typography' },
+            { text: 'Colors', link: '/synthexa/design/colors' },
+            { text: 'Typography', link: '/synthexa/design/typography' },
           ]
         },
         {
           text: '📦 Components',
           items: [
-            { text: 'Terminal Dashboard', link: '/synthex/components/terminal' },
-            { text: 'ROI Calculator', link: '/synthex/components/roi-calculator' },
-            { text: '404 Game', link: '/synthex/components/404-game' },
-            { text: 'Terminal Image', link: '/synthex/components/terminal-image' },
-            { text: 'Other Components', link: '/synthex/components/other' },
+            { text: 'Terminal Dashboard', link: '/synthexa/components/terminal' },
+            { text: 'ROI Calculator', link: '/synthexa/components/roi-calculator' },
+            { text: '404 Game', link: '/synthexa/components/404-game' },
+            { text: 'Terminal Image', link: '/synthexa/components/terminal-image' },
+            { text: 'Other Components', link: '/synthexa/components/other' },
           ]
         },
         {
           text: '📋 Publishing',
           items: [
-            { text: 'Publish Your Site', link: '/synthex/guide/publish' },
-            { text: 'Connect Domain', link: '/synthex/guide/domain' },
-            { text: 'SEO Settings', link: '/synthex/guide/seo' },
+            { text: 'Publish Your Site', link: '/synthexa/guide/publish' },
+            { text: 'Connect Domain', link: '/synthexa/guide/domain' },
+            { text: 'SEO Settings', link: '/synthexa/guide/seo' },
           ]
         },
       ]
