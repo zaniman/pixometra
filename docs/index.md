@@ -19,30 +19,5 @@ Premium Framer template for AI automation agencies with retro-futuristic termina
 
 ---
 
-#### More Templates Coming Soon
-Stay tuned for additional Pixometra Framer templates!
-
----
-
-## Quick Start
-
-1. **[Visit SYNTHEX Docs](/synthex/)** — Overview of what's included
-2. **[Duplicate the Template](/synthex/guide/duplicate)** — Copy to your Framer workspace
-3. **[Start Customizing](/synthex/guide/framer-basics)** — Learn Framer basics
-4. **[Publish Your Site](/synthex/guide/publish)** — Deploy live
-
-## Documentation Structure
-
-### SYNTHEX
-- **Introduction** — Welcome, features, what you get
-- **Getting Started** — Duplication, Framer basics
-- **Pages** — Page overview and content editing
-- **CMS** — Collections guide (Blog, Cases, Career, Legal, Pricing)
-- **Design System** — Colors, typography, design tokens
-- **Components** — Terminal Dashboard, ROI Calculator, 404 Game, Terminal Image
-- **Publishing** — Deployment, domains, SEO
-
----
-
 **Made by Pixometra** ❤️  
 Building premium Framer templates for agencies and enterprises.
