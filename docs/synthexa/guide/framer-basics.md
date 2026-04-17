@@ -27,32 +27,16 @@ Manage dynamic content without touching the design:
 Create Authors and Categories BEFORE Blog posts, since blog posts reference them.
 :::
 
-## Properties Panel (Right Sidebar)
-
-When an element is selected, the Properties panel shows all editable settings:
-
-- **Text** — Font, size, color, alignment
-- **Spacing** — Padding, margin, gap
-- **Fill** — Background color or gradient
-- **Stroke** — Border color, thickness, style
-- **Corners** — Border radius
-- **Effects** — Shadow, blur, opacity
-- **Component props** — For code/design components (e.g., Terminal Dashboard settings)
-
 ## Color Styles (Assets Panel)
+
+![Color Styles](/images/guide/synthexa-08.png)
 
 Design tokens that control colors across your entire site.
 
 **How to access:**
 1. Click **Assets** in the left sidebar
-2. Select **Color Styles**
+2. Select **Styles > Color**
 3. Find and click the color token you want to change
-
-**Key tokens:**
-- `/Terminal/TerminalPrimary` — Main neon accent (buttons, active states, glows)
-- `/Terminal/TerminalSecondary` — Secondary terminal color
-- `/Brand/BrandPrimary` — Navigation states, badges
-- `/Background/*` and `/Text/*` — Layout foundations
 
 :::warning
 Changing a color token updates EVERY element using it across the entire site instantly.
@@ -60,11 +44,13 @@ Changing a color token updates EVERY element using it across the entire site ins
 
 ## Text Styles (Assets Panel)
 
+![Text Styles](/images/guide/synthexa-09.png)
+
 Global typography definitions. Update once, change everywhere.
 
 - `/Heading 1–6` — All headline sizes
-- `/Body/BodyRegular` — Standard body text
-- `/Mono/MonoRegular` — Terminal/UI labels
+- `/Body` — Standard body text
+- `/Mono/MonoRegular` — Terminal/UI labels/Metrics
 
 ## Components (Assets Panel)
 
