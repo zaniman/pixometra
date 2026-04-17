@@ -39,6 +39,25 @@ export default defineConfig({
         max-width: 100% !important;
         height: auto !important;
       }
+      /* Brand color for links in synthexa documentation */
+      .VPDoc[data-v-app] a {
+        color: #40ff43 !important;
+      }
+      .vp-doc a {
+        color: #40ff43 !important;
+      }
+      .vp-doc a:hover {
+        color: #33cc34 !important;
+      }
+      /* Sidebar links for synthexa */
+      .VPSidebar a,
+      .VPNav a {
+        color: inherit;
+      }
+      /* Content area links */
+      .vp-doc a code {
+        color: #40ff43 !important;
+      }
     `]
   ],
 
