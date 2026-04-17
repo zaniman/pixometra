@@ -6,6 +6,8 @@ To start using **SYNTHEXA**, you need to create a personal copy of the template 
 
 Open the SYNTHEXA template page in Framer. You will see the template preview and a **Copy** button below it.
 
+![SYNTHEXA Template Preview](/images/guide/synthexa-03.png)
+
 ## Step 2 — Click "Copy"
 
 Click the **Copy** button located under the template preview.
