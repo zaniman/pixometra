@@ -1,40 +1,52 @@
 # Duplicate the Template
 
-Follow these steps to copy SYNTHEXA to your Framer workspace.
+To start using **SYNTHEXA**, you need to create a personal copy of the template inside your Framer workspace. This allows you to edit, customize, and publish the website as your own project.
 
-## Step 1: Open the Template in Framer Marketplace
+## Step 1 — Open the Template
 
-Visit the SYNTHEXA template page and you'll see the preview and a **Copy** button below it.
+Open the SYNTHEXA template page in Framer. You will see the template preview and a **Copy** button below it.
 
-## Step 2: Click "Copy"
+## Step 2 — Click "Copy"
 
-Framer creates a copy of the project in your workspace automatically. You now own an independent copy with all pages, CMS, and components.
+Click the **Copy** button located under the template preview.
 
-## Step 3: Open Your Copied Project
+Framer will automatically create a copy of the project inside your workspace.
 
-Your project contains:
-- ✅ All 12 pages
-- ✅ All 7 CMS collections
-- ✅ 3 custom components (Terminal Dashboard, ROI Calculator, 404 Game)
-- ✅ Light & Dark color schemes
-- ✅ Ready to customize
+## Step 3 — Open Your Copied Project
 
-## Step 4: Start Customizing
+Once the copy is created, the template will appear in your **Framer dashboard** as a new project.
 
-Now you can:
+Open it to start editing.
 
-1. **Replace placeholder content** — Update text, images, and branding throughout the site
-2. **Update brand colors** — Change `/Terminal/TerminalPrimary` to your neon accent color
-3. **Fill CMS collections** — Add your blog posts, case studies, job listings, etc.
-4. **Customize components** — Adjust Terminal Dashboard, pricing table, ROI calculator
-5. **Publish** — Once ready, publish your site to a Framer subdomain or custom domain
+Your copy now includes:
 
-:::tip
-All changes are independent from the original template. Your copy won't be affected by updates to the marketplace version.
-:::
+- All 9 pages + dynamic routes
+- 7 CMS collections (Blog, Cases, Careers, Pricing, Legal, Authors, Categories)
+- 3 custom components (Terminal Dashboard, ROI Calculator, 404 Game)
+- Light & Dark color schemes
+- Complete design system with color tokens and text styles
 
-## What Happens Next?
+## Step 4 — Start Customizing
 
-Once duplicated, you'll work entirely in Framer's editor. Read the next section to learn Framer basics:
+You can now begin customizing the template to match your brand and content.
 
-→ [Framer Basics](/synthexa/guide/framer-basics)
+Typical next steps include:
+
+- Replacing text and images with your own content
+- Updating brand colors (especially `/Terminal/TerminalPrimary` for your accent)
+- Adding your projects, case studies, and articles to CMS collections
+- Customizing the Terminal Dashboard with your metrics
+- Configuring the ROI Calculator with your pricing model
+- Setting up contact forms and job applications
+- Publishing to your custom domain
+
+**Tip:**
+
+The original template remains unchanged. Your copied version is fully independent, so you can edit it freely without affecting the original project.
+
+## Next Steps
+
+Once you've duplicated the template, learn how to edit content and work with the design system:
+
+→ [Framer Basics](/synthexa/guide/framer-basics)  
+→ [Editing Content](/synthexa/guide/editing-content)
