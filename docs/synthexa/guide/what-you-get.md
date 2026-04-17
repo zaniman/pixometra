@@ -2,7 +2,7 @@
 
 A complete, **production-ready Framer project** you can duplicate, edit, and publish as your own agency website.
 
-## 📄 Pages Included (9 Pages + Dynamic Routes)
+## Pages Included (9 Pages + Dynamic Routes)
 
 | Page | URL | Description |
 |------|-----|-------------|
@@ -19,7 +19,7 @@ A complete, **production-ready Framer project** you can duplicate, edit, and pub
 | **Legal Pages** | `/legal/:slug` | Auto-generated pages for Privacy Policy, Terms of Service, and other legal documents. |
 | **404 Page** | `/404` | Playable retro arcade game. Keeps visitors engaged when they hit dead links. |
 
-## 🗂️ CMS Collections
+## CMS Collections
 
 SYNTHEXA includes **7 fully configured CMS collections** with sample data:
 
@@ -44,23 +44,34 @@ SYNTHEXA includes **7 fully configured CMS collections** with sample data:
   - Features include: workflows, integrations, support, SLA, documentation
 - **Legal** (2 pages) — Privacy Policy and Terms of Service
 
-## 📦 Components
+## Custom interactive components
 
-### Code Components (React/TypeScript)
-- **Terminal Dashboard** — Multi-panel data visualization
-- **ROI Calculator** — Interactive automation savings calculator
-- **NotFoundGame** — Playable arcade game for 404 page
+### Terminal Dashboard ###
 
-### Design Components (Framer)
-- **Terminal Image** — CRT monitor frame with image
-- **Number Flow** — Animated number transitions
-- **Background Pattern** — Geometric background
-- **Theme Toggle** — Light/dark mode switcher
-- **Nav** — Responsive navigation bar
-- **Footer** — Site-wide footer with links
-- **Terminal Effects** — CRT scanline overlay
+Multi-panel data visualization widget that displays your metrics with an authentic retro aesthetic. Customize any metric name and values to showcase case success rates, cost savings, hours automated, or ROI impact.
 
-## 🎨 Design System
+![Alt text](/images/guide/TerminalMain.png)
+
+Features include:
+
+- Live metric displays with animated counters
+- Built-in terminal panel with typewriter effect text — display code, logs, or any narrative text
+- Charts and diagrams for visual data representation
+- Custom SVG support — embed your own charts, graphs, or branded visuals
+- Fully configurable colors, layouts, and panel arrangements
+
+### ROI Calculator ###
+
+Interactive slider-based tool for demonstrating client savings and automation benefits. Build your own calculation model:
+
+- Custom formulas — define exactly how your savings are calculated
+- Configurable parameters — set sliders, inputs, and multipliers to match your pricing
+- Live calculation display — visitors see real-time results as they adjust inputs
+- Customizable labels and descriptions for each metric
+
+**Retro Arcade Game** — 404 page engagement experience that keeps visitors entertained when they hit dead links.
+
+## Design System
 
 SYNTHEXA comes with a complete design system:
 
