@@ -169,8 +169,8 @@ Key metric tiles with label + value.
 
 | Property | Type | Description |
 |----------|------|-------------|
-| **Metrics** | Array | Collection of metric items (max 6) |
-| **Columns** | Slider | Number of columns (1–3) for layout |
+| **Metrics** | Array | Collection of metric items |
+| **Columns** | Slider | Number of columns (1–6) for layout |
 
 ![Metrics Prop](/images/guide/synthexa-55.png)
 
@@ -178,9 +178,13 @@ Each metric item contains:
 - **Label** — Metric label (e.g., "Processes running")
 - **Value** — Metric value (e.g., "247" or "99.97%")
 
+![Metrics Item Prop](/images/guide/synthexa-56.png)
+
 ### Ring
 
 Animated circular gauge. Single and Dual mode.
+
+![Ring](/images/guide/synthexa-57.png)
 
 | Property | Type | Description |
 |----------|------|-------------|
@@ -190,20 +194,26 @@ Animated circular gauge. Single and Dual mode.
 | **Ring 2 %** | Slider | Second ring percentage (0–100, Dual mode only) |
 | **Ring 2 Label** | Text | Label for second ring (Dual mode only) |
 
+![Ring Prop](/images/guide/synthexa-58.png)
+
 ### SVG
 
 Render custom SVG graphics with optional color theming.
+
+![SVG](/images/guide/synthexa-59.png)
 
 | Property | Type | Description |
 |----------|------|-------------|
 | **SVG Code** | Text | Raw SVG markup |
 | **Apply Color** | Toggle | Apply Primary color accent to SVG |
-| **Scale** | Slider | SVG scale factor (0.5–2) |
+| **Scale** | Slider | SVG scale factor (0.1–5) |
 | **Padding** | Slider | Padding around SVG (0–32px) |
+
+![SVG Prop](/images/guide/synthexa-60.png)
 
 **Tips:**
 - Paste complete `<svg>` tags into SVG Code
-- Enable "Apply Color" to tint the SVG with the Primary token color
+- Enable "Apply Color" to tint the SVG with the TerminalPrimary token color
 - Use Scale to resize the SVG within the panel
 - Padding adds space around the SVG content
 
