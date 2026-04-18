@@ -6,16 +6,17 @@ The Blog collection powers your `/blog` page and blog post listing.
 
 | Field | Type | Notes |
 |-------|------|-------|
+| **Featured** | Boolean | Appears in blog homepage featured section |
 | **Title** | String | Article headline |
-| **Slug** | String | URL path — auto-generated from title |
 | **Summary** | String | Short preview on the listing page |
-| **Cover Image** | Image | Thumbnail and OG image |
-| **Content** | Rich Text | Full article body — supports headings, links, formatting |
 | **Author** | Reference → Blog Authors | Select from Blog Authors collection |
-| **Category** | Reference → Blog Categories | Select from Blog Categories collection |
-| **Published Date** | Date | Shown on listing and article page |
+| **Blog Category** | Reference → Blog Categories | Select from Blog Categories collection |
+| **Date** | Date | Shown on listing and article page |
+| **Main Image** | Image | Thumbnail and OG image |
+| **Content** | Rich Text | Full article body — supports headings, links, formatting |
 | **Read Time** | String | e.g. "5 min read" |
-| **Featured** | Boolean | Appears in homepage featured section |
+| **Slug** | String | URL path — auto-generated from title |
+
 
 ## Setup Order
 
@@ -45,17 +46,7 @@ Create **Blog Authors** and **Blog Categories** BEFORE creating Blog posts.
 
 **Read Time:** "8 min read"
 
-**Featured:** Toggle on to show on homepage
-
-## Rich Text Formatting
-
-In the **Content** field, you can use:
-
-- `# Heading 1` — Article sections
-- `## Heading 2` — Subsections
-- **Bold** and *Italic*
-- [Links](https://example.com)
-- Lists and bullet points
+**Featured:** Toggle on to show on blog homepage
 
 ## Auto-Generated Pages
 
@@ -68,6 +59,4 @@ Once saved, a new page is created at `/blog/:slug` with:
 
 ## Next Steps
 
-→ [Blog Authors Collection](/synthexa/guide/cms-overview)
-
-→ [Blog Categories Collection](/synthexa/guide/cms-overview)
+→ [Cases Collection](/synthexa/guide/cms-cases)
