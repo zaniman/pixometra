@@ -68,17 +68,6 @@ Avoid changing individual element styles. Always edit the global Text Style inst
 
 ![Edit links](/images/guide/synthexa-16.png)
 
-### Hero Sections  
-- Edit headline and subheadline with double-click
-- Replace hero image via Properties panel
-- Adjust CTA button text
-
-### Blog/Cases Sections
-- Don't edit these directly — use **CMS collections** instead
-- Add blog posts and cases via the **CMS panel**
-
-### Footer Links
-
 Footer links are text elements, not components. To edit them:
 
 **To change a footer link URL:**
@@ -92,6 +81,46 @@ Footer links are text elements, not components. To edit them:
 2. In the **Properties panel**, scroll down to the **Text** section
 3. Find the **Content** field
 4. Edit the text to change what visitors see
+
+![Footer Links](/images/guide/synthexa-17.png)
+
+### Hero Sections  
+
+**Edit Headlines:**
+- Edit headline and subheadline with double-click
+
+**Replace Hero Image:**
+- Select the hero image
+- Open the **Properties panel** (right sidebar)
+- Click the image field to upload or change the hero image
+
+**Edit CTA Buttons:**
+
+To customize the Call-to-Action button in your hero section:
+
+1. **Click the button** on the canvas (single-click to select)
+2. Open the **Properties panel** (right sidebar)
+
+**Change button text:**
+- Find the **Label** field in the Properties panel
+- Edit the text to change what appears on the button
+
+**Change button icon:**
+- Find the **Icon** field in the Properties panel
+- Select a different icon from the dropdown
+- Uncheck **Show Icon** to hide the icon if needed
+
+**Change button variant/type:**
+- Find the **Variant** field in the Properties panel
+- Select from available button styles (e.g., Primary, Secondary, etc.)
+
+**Toggle text and icon visibility:**
+- Use **Show Label** to show/hide the button text
+- Use **Show Icon** to show/hide the button icon
+
+### Blog/Cases Sections
+- Don't edit these directly — use **CMS collections** instead
+- Add blog posts and cases via the **CMS panel**
 
 ## Using Component Properties
 
