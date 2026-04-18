@@ -1,5 +1,7 @@
 # TerminalDashboard
 
+![Terminal Component](/images/guide/synthexa-37.png)
+
 The signature component of SYNTHEXA — a fully animated multi-panel data visualization widget with a CRT terminal aesthetic.
 
 Used in the homepage hero and across the site to showcase metrics, status, and automation workflows.
@@ -11,6 +13,7 @@ The TerminalDashboard is a **code component** that renders:
 - Animated typewriter text (Terminal panel)
 - Data visualizations (Sparkline, Bars, Ring, Status)
 - Metrics tiles with labels
+- SVG rendering for custom graphics
 - Customizable colors and animations
 - Full responsive design
 
