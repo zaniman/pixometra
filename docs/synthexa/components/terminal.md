@@ -298,10 +298,12 @@ Create a custom layout using a split string:
 
 **Format:** Numbers separated by `|` representing panel counts in each column.
 
-**Examples:**
-- `2|2` — 2 panels on left, 2 on right
-- `2|4` — 2 panels on left, 4 on right
-- `3|2|1` — 3 panels left, 2 middle, 1 right
+**Important:** The sum of the split numbers must equal the total **Panels** count set above.
+
+**Examples (with 6 total panels):**
+- `2|2|2` — 2 panels in each of 3 columns (2+2+2=6)
+- `2|4` — 2 panels on left, 4 on right (2+4=6)
+- `3|2|1` — 3 panels left, 2 middle, 1 right (3+2+1=6)
 
 ![Custom Split](/images/guide/synthexa-63.png)
 
