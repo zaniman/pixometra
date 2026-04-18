@@ -298,7 +298,9 @@ Create a custom layout using a split string:
 
 **Format:** Numbers separated by `|` representing panel counts in each column.
 
-**Important:** The sum of the split numbers must equal the total **Panels** count set above.
+:::warning
+The sum of the split numbers must equal the total **Panels** count set above. For example, if you have 6 panels, use `2|2|2` (2+2+2=6), not `2|3`.
+:::
 
 **Examples (with 6 total panels):**
 - `2|2|2` — 2 panels in each of 3 columns (2+2+2=6)
