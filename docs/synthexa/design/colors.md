@@ -287,7 +287,7 @@ Foundation colors for layout and page structure, organized by depth levels from 
 - `/Background/BackgroundHighlight` — Highest level, used for forms, cards, and highlighted/featured elements (e.g., popular pricing plan)
 - `/Background/BackgroundTop` — Main page and container background
 - `/Background/BackgroundElevated` — Decorative UI elements: circular cutouts in panels, button/toggle indentations, slider tracks, dividers
-- `/Background/BackgroundSurface` — Surface elements like input fields and form backgrounds
+- `/Background/BackgroundSurface` — Gaps and separators between panels (gutters, dividing spaces)
 - `/Background/BackgroundBase` — Base layer for deeper backgrounds
 - `/Background/BackgroundCanvas` — Deepest background layer
 
