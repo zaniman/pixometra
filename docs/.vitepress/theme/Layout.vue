@@ -27,15 +27,12 @@ const DefaultLayout = DefaultTheme.Layout
   position: sticky;
   top: 62px;
   z-index: 10;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .notice-content {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+  display: inline-block;
 }
 
 @media (prefers-color-scheme: dark) {
