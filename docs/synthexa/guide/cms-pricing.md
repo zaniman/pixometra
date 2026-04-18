@@ -100,11 +100,30 @@ This flexibility lets you show:
 
 ## Editing Plan Names & Pricing
 
-The **plan names, prices, and descriptions** are edited directly on the canvas:
+The plan names and CTA buttons in the comparison table are edited through the **ComparisonTable** component:
+
+### Editing Plan Names
 
 1. Go to the **Pricing** page
-2. Click on the plan cards to edit titles, prices, features lists, CTA buttons
-3. No CMS needed for these card elements — only for the comparison table rows
+2. In the **Layers panel** (left sidebar), select **ComparisonTable** — or click the comparison table once on the canvas
+3. Open the **Properties panel** (right sidebar)
+4. In the **ComparisonTable** section, enter or update the plan names for Plan 1, Plan 2, Plan 3
+
+### Editing Plan CTA Buttons
+
+To edit the buttons at the bottom of the comparison table:
+
+1. With **ComparisonTable** selected in Layers (or after clicking it on canvas), go to the **Properties panel**
+2. Click **Edit Component** (in the ComparisonTable section or at the top of Properties)
+3. The component enters edit mode. Select the button for the plan you want to modify (click on canvas or select in Layers)
+4. In the **Properties panel**, update:
+   - **Label** — The button text (e.g., "Get Started")
+   - **Icon** — Show or hide an icon next to the button text
+   - **Link** — The URL the button links to
+
+:::tip
+Plan prices, descriptions, and the main card layout are part of the Pricing page design. Adjust these directly on the canvas as needed. The CMS Pricing collection only controls the comparison table **rows** (features), not the plan cards themselves.
+:::
 
 ## Tips
 
