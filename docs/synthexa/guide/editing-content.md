@@ -77,8 +77,21 @@ Avoid changing individual element styles. Always edit the global Text Style inst
 - Don't edit these directly — use **CMS collections** instead
 - Add blog posts and cases via the **CMS panel**
 
-### Footer
-- Edit footer text, links, and social icons directly on canvas
+### Footer Links
+
+Footer links are text elements, not components. To edit them:
+
+**To change a footer link URL:**
+1. Select the link text on the canvas
+2. Open the **Properties panel** (right sidebar)
+3. Locate the **Link** section at the top
+4. Change the **Link To** value to your desired URL
+
+**To change the link text (display name):**
+1. Select the link text on the canvas
+2. In the **Properties panel**, scroll down to the **Text** section
+3. Find the **Content** field
+4. Edit the text to change what visitors see
 
 ## Using Component Properties
 
