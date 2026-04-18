@@ -18,24 +18,27 @@ The Open Roles collection powers your `/careers` page with job listings.
 Use these headings in the **Details** field to organize your job posts:
 
 ```markdown
-### About the Role
-Brief overview of the position.
-
 ### Responsibilities
-- Responsibility 1
-- Responsibility 2
-- Responsibility 3
+- Task and responsibility 1
+- Task and responsibility 2
+- Task and responsibility 3
+- Task and responsibility 4
+- Task and responsibility 5
 
 ### Requirements
-- Required skill 1
-- Required skill 2
-- Nice to have...
+- Required skill or experience 1
+- Required skill or experience 2
+- Required skill or experience 3
+- Required skill or experience 4
+- Nice to have: Bonus skill or experience
 
-### What We Offer
-- Salary range or "Competitive"
-- Benefits
-- Perks
-- Company culture
+### Offer
+- Salary or "Competitive salary based on experience"
+- Remote/location flexibility
+- Benefit 1
+- Benefit 2
+- Benefit 3
+- Company culture or perk
 ```
 
 ## Example Job Posting
