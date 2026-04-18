@@ -39,11 +39,11 @@ export default defineConfig({
         max-width: 100% !important;
         height: auto !important;
       }
-      /* 2x resolution images - scale proportionally with max width */
+      /* 2x resolution images - display at logical 1x size */
       img[src*="@2x"] {
-        width: auto !important;
+        width: 50% !important;
         height: auto !important;
-        max-width: 800px !important;
+        max-width: 100% !important;
       }
     `]
   ],
