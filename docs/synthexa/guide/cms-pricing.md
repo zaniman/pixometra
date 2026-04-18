@@ -6,6 +6,8 @@ The Pricing collection controls the feature comparison table on your `/pricing` 
 
 The pricing page displays a **three-column comparison table** with plan features. Each CMS item creates one row in the table.
 
+![Pricingl](/images/guide/synthexa-26.png)
+
 You can:
 - Add **feature rows** showing what's included in each plan
 - Add **section headers** to group features by category
@@ -69,6 +71,10 @@ For each plan column, configure:
 | Name | Integration & API |
 | Type | Section |
 | Tooltip | (empty) |
+
+:::tip
+When **Type is "Section"**, you **don't need to fill in** the Plan 1/2/3 fields (Info, Show Icon, Icon). Just set the Name and Type, and leave the rest empty. The section header will appear as a category divider in the pricing table.
+:::
 
 ## Icon vs Text
 
