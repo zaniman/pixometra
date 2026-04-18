@@ -19,6 +19,8 @@ The TerminalDashboard is a **code component** that renders:
 
 ## Property Controls
 
+![Terminal Properties](/images/guide/synthexa-39.png)
+
 ### Appearance
 
 | Property | Type | Default | Description |
@@ -58,17 +60,24 @@ Each Panel (1–6) has common properties:
 
 ### Terminal
 
+![Terminal Panel](/images/guide/synthexa-38.png)
+
 Animated typewriter with input/output lines.
 
 | Property | Type | Description |
 |----------|------|-------------|
 | **Speed** | Slider | Animation speed (1 = normal, higher = faster) |
-| **Script** | Text | Multiline terminal script |
-| **Lines** | Array | Individual lines (auto-generated from Script) |
+| **Script** | Text | Multiline terminal script (overrides Lines if provided) |
+| **Lines** | Array | Individual lines (used only if Script is empty) |
+
+![Terminal Panel Prop](/images/guide/synthexa-40.png)
 
 **Script format:**
-- Lines starting with `> ` render as input (Primary color)
-- Other lines render as output (Secondary color)
+- Lines starting with `> ` (greater-than symbol) render as **input** (Primary color)
+- All other lines render as **output** (Secondary color)
+- When Script is filled, it **overrides** the Lines array configuration
+
+**Note:** Use either Script (for readability) OR Lines array (for programmatic control), not both.
 
 **Example:**
 ```
