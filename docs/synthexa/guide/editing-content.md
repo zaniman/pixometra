@@ -89,13 +89,28 @@ Footer links are text elements, not components. To edit them:
 To replace the SYNTHEXA logo with your own:
 
 1. In the left sidebar, click **Assets** → **Components** → **Navigation** → **Logo**
+
+![Logo Left Panel](/images/guide/synthexa-19.png)
+
 2. Switch to the **Layers** tab in the left panel
 3. In the layers tree, find and select **Default** > **Vector**
+
+![Logo Left Panel Layers](/images/guide/synthexa-20.png)
+
 4. Open the **Properties panel** (right sidebar)
-5. Locate the **Logo** section (labeled as **Vector Set**) and click **Edit**
+5. Locate the **Logo** section (**Vector Set** name) and click **Edit**
+
+![Vector Set Edit](/images/guide/synthexa-21.png)
+
 6. Inside the Vector Set, you can:
    - Replace the existing Synthexa text/logo with your own SVG logo
-   - Or create a new vector and insert your custom SVG logo
+   - Or create a new vector (click +Add) and insert your custom SVG logo
+
+![Vector Set Edit](/images/guide/synthexa-22.png)
+
+**Inserting your SVG logo onto the canvas:**
+- **Method 1:** Right-click on the canvas → **Insert Image** and select your SVG file
+- **Method 2:** Drag and drop your SVG file directly from your operating system onto the canvas
 
 **Logo best practices:**
 - **Size** — Keep your logo **20px in height** to maintain layout consistency
