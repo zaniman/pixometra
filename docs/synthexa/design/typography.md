@@ -89,46 +89,6 @@ All text using that style updates **instantly** across the entire site.
 
 Click **Publish** to make changes live.
 
-## Examples
-
-### Changing Body Text Color
-
-1. **Assets** → **Text Styles**
-2. Find `/Body/BodyRegular`
-3. Click **Color** field
-4. Select `/Text/TextPrimary` (or your custom color)
-5. **Publish**
-
-Result: All body text across the entire site changes color.
-
-### Increasing Heading Size
-
-1. **Assets** → **Text Styles**
-2. Find `/Heading 1`
-3. Change **Size** from 72px to 84px
-4. **Publish**
-
-Result: All H1 headings grow in size site-wide.
-
-## Line Heights & Readability
-
-SYNTHEXA uses these line height rules:
-
-- **Headings:** 1.2 (tight, impactful)
-- **Body text:** 1.6–1.7 (generous, readable)
-- **Mono/code:** 1.5 (balanced)
-
-Generous line heights make long-form content more readable.
-
-## Font Loading
-
-Both font families are loaded from Google Fonts:
-
-- **Inter** — Weights: 400 (Regular), 600 (SemiBold)
-- **IBM Plex Mono** — Weights: 300 (Light), 400 (Regular), 500 (Medium)
-
-Fonts are optimized for web and load quickly.
-
 ## Responsive Typography
 
 SYNTHEXA uses **three breakpoints** with text sizes configured for each:
@@ -142,7 +102,7 @@ SYNTHEXA uses **three breakpoints** with text sizes configured for each:
 | **Phone** | Below 810px | Mobile devices |
 
 Each text style can have different sizes at each breakpoint. For example:
-- `/Heading 1` might be **72px on Desktop**, **48px on Tablet**, **32px on Phone**
+- `/Heading 1` might be **72px on Desktop**, **56px on Tablet**, **38px on Phone**
 
 To configure sizes per breakpoint:
 
@@ -166,18 +126,6 @@ This ensures typography scales appropriately across all devices without manual a
 :::warning
 Never change individual element typography. Always edit the Text Style. Individual changes break consistency and are harder to maintain.
 :::
-
-## Adding New Text Styles
-
-To add a new text style (if needed):
-
-1. **Assets** → **Text Styles**
-2. Click **+ New**
-3. Set name (e.g., `/Custom/SmallCaption`)
-4. Configure font, size, weight, color
-5. Use in your design
-
-**However**, the existing 15 text styles should cover most needs.
 
 ## Next Steps
 

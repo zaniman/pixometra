@@ -109,7 +109,7 @@ Automation complete // 4h saved this month
 
 ### Sparkline
 
-Animated dual-line canvas chart for showing trends.
+Canvas chart for showing trends.
 
 ![Sparkline](/images/guide/synthexa-45.png)
 
@@ -123,38 +123,56 @@ Each sparkline item contains:
 - **Label** — Legend label for the line
 - **Values** — Array of numbers (0–100) representing the trend (add/remove values with sliders)
 
+![Values](/images/guide/synthexa-47.png)
+
 ### Bars
 
 Animated horizontal bar chart for comparing percentages.
 
+![Bars](/images/guide/synthexa-48.png)
+
 | Property | Type | Description |
 |----------|------|-------------|
-| **Bars** | Array | Collection of bar items (max 6) |
+| **Bars** | Array | Collection of bar items|
+
+![Bars Prop](/images/guide/synthexa-49.png)
 
 Each bar item contains:
 - **Label** — Bar label
 - **Value** — Numeric value (0–100 for percentage display)
 
+![Bars Item Prop](/images/guide/synthexa-50.png)
+
 ### Status
 
 Live status list with pulsing indicators.
 
+![Status](/images/guide/synthexa-51.png)
+
 | Property | Type | Description |
 |----------|------|-------------|
-| **Status Items** | Array | Collection of status indicators (max 7) |
+| **Status Items** | Array | Collection of status indicators |
+
+![Status Prop](/images/guide/synthexa-52.png)
 
 Each status item contains:
 - **Label** — Status label
 - **State** — Status state (Active, Idle, Running, Error)
 
+![Status Prop State](/images/guide/synthexa-53.png)
+
 ### Metrics
 
 Key metric tiles with label + value.
+
+![Metrics](/images/guide/synthexa-54.png)
 
 | Property | Type | Description |
 |----------|------|-------------|
 | **Metrics** | Array | Collection of metric items (max 6) |
 | **Columns** | Slider | Number of columns (1–3) for layout |
+
+![Metrics Prop](/images/guide/synthexa-55.png)
 
 Each metric item contains:
 - **Label** — Metric label (e.g., "Processes running")
