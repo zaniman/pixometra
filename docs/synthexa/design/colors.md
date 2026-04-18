@@ -289,7 +289,7 @@ Foundation colors for layout and page structure, organized by depth levels from 
 - `/Background/BackgroundElevated` — Decorative UI elements: circular cutouts in panels, button/toggle indentations, slider tracks, dividers
 - `/Background/BackgroundSurface` — Gaps and separators between panels (gutters, dividing spaces)
 - `/Background/BackgroundBase` — Background layer for interactive elements (buttons, forms, inputs, terminals)
-- `/Background/BackgroundCanvas` — Deepest background layer
+- `/Background/BackgroundCanvas` — Black color for pseudo-cutouts in panels (buttons, inputs, terminal screens)
 
 ### Text Group
 
