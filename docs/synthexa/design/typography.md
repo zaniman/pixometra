@@ -12,12 +12,6 @@ SYNTHEXA uses two carefully chosen font families to balance readability and retr
 - All headings (h1–h6)
 - Body paragraphs
 - Regular UI text
-- Clean, modern, highly readable
-
-**Why Inter?**
-- Professional and authoritative
-- Excellent for body text
-- Great on screens (optimized for readability)
 
 ### IBM Plex Mono — UI & Terminal
 
@@ -29,11 +23,6 @@ SYNTHEXA uses two carefully chosen font families to balance readability and retr
 - UI labels and tags
 - Status indicators
 - Monospace aesthetic
-
-**Why IBM Plex Mono?**
-- Perfect for the retro-futuristic look
-- Consistent character width (monospace)
-- Readable at small sizes
 
 ## Text Style Scale
 
@@ -93,6 +82,8 @@ Click to open the style editor. You can change:
 - **Letter Spacing** — Space between characters
 - **Alignment** — Left, center, right, justify
 
+![Text changing](/images/guide/synthexa-36.png)
+
 ### Step 4: Apply & Publish
 
 All text using that style updates **instantly** across the entire site.
@@ -139,15 +130,30 @@ Both font families are loaded from Google Fonts:
 
 Fonts are optimized for web and load quickly.
 
-## Mobile Typography
+## Responsive Typography
 
-On mobile, SYNTHEXA automatically scales:
+SYNTHEXA uses **three breakpoints** with text sizes configured for each:
 
-- **Headings** — Slightly smaller to fit screens
-- **Body text** — Full size (already 14–16px)
-- **Mono labels** — Readable at 12px+
+### Breakpoints
 
-No manual breakpoint tweaking needed — Framer handles it.
+| Breakpoint | Screen Width | Use Case |
+|-----------|--------------|----------|
+| **Desktop** | 1200px+ | Large screens, full layout |
+| **Tablet** | 1199–810px | Tablets and medium screens |
+| **Phone** | Below 810px | Mobile devices |
+
+Each text style can have different sizes at each breakpoint. For example:
+- `/Heading 1` might be **72px on Desktop**, **48px on Tablet**, **32px on Phone**
+
+To configure sizes per breakpoint:
+
+1. **Assets** → **Text Styles**
+2. Select a text style (e.g., `/Heading 1`)
+3. In the style editor, click the **breakpoint** (L/M/S buttons)
+4. Change the size for that breakpoint
+5. **Publish** to apply changes
+
+This ensures typography scales appropriately across all devices without manual adjustments.
 
 ## Best Practices
 
