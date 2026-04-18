@@ -135,10 +135,16 @@ Any CMS entry can be placed in **Draft** status:
 
 ### Large Content Imports
 
-For large imports of content (many blog posts at once), consider:
+For large imports of content (many blog posts at once):
 
-1. Using Framer's **CMS CSV import** (if available)
-2. Contacting Framer support for bulk import operations
+1. Open the **Plugins panel** in Framer (top toolbar)
+2. Search for or browse **CSV Import**, **Google Sheets**, or other import plugins
+3. Install the plugin and follow its instructions to import your CMS data in bulk
+
+Popular import plugins:
+- **CSV Import** — Import content from spreadsheet files
+- **Google Sheets** — Sync CMS entries directly from Google Sheets
+- **Notion** — Pull content from your Notion database
 
 ## Troubleshooting
 
