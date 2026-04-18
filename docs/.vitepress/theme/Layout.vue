@@ -24,6 +24,9 @@ const DefaultLayout = DefaultTheme.Layout
   text-align: center;
   font-size: 13px;
   color: #8b6914;
+  position: sticky;
+  top: 62px;
+  z-index: 10;
 }
 
 .notice-content {
