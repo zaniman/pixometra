@@ -2,14 +2,16 @@
 
 SYNTHEXA comes with **12 fully designed pages** ready for customization.
 
+![Pages](/images/guide/synthexa-11.png)
+
 ## Static Pages
 
 These pages are directly editable on the canvas:
 
-- **Homepage** (`/`) — Hero, services, featured cases, blog preview, ROI calculator
-- **About** (`/about`) — Company story, team, values, metrics
+- **Homepage** (`Home`) — Hero, customer logos, patterns, services, process, ROI calculator, tech stack, cases and testimonials, pricing, FAQ, contact form
 - **Pricing** (`/pricing`) — Service plans with feature comparison table
-- **Contact** (`/contact`) — Contact form and agency details
+- **About** (`/about`) — Company story, team, values, metrics
+- **Contact** (`/contact`) — Contact form
 
 ## CMS-Driven Pages
 
@@ -25,10 +27,10 @@ These pages **auto-generate** from your CMS entries. You never need to build ind
 - **Cases Listing** (`/cases`) — Portfolio grid
 - **Case Study** (`/cases/:slug`) — Auto-generated for each Cases CMS item
 
-### Career
+### Careers
 
-- **Careers** (`/career`) — Open positions listing
-- **Job Page** (`/career/:slug`) — Auto-generated for each Open Roles CMS item
+- **Careers** (`/careers`) — Open positions listing
+- **Job Page** (`/careers/:slug`) — Auto-generated for each Open Roles CMS item
 
 ### Legal
 

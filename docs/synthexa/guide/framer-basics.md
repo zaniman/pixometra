@@ -56,8 +56,10 @@ Global typography definitions. Update once, change everywhere.
 
 Reusable design and code components. Click **Assets** → **Components** to browse:
 
+![Components](/images/guide/synthexa-10.png)
+
 - **Framer components** — Fully editable design elements
-- **Code components** — Interactive elements (Terminal Dashboard, ROI Calculator)
+- **Code components** — Interactive elements (TerminalDashboard, ROICalculator, NotFoundGame)
 
 Drag a component onto the canvas to insert it.
 
