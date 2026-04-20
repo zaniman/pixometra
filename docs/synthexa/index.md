@@ -73,8 +73,7 @@ In this documentation, you'll discover how to:
 ### Publishing & Deployment
 
 - [Publish Your Site](/synthexa/guide/publish)
-- [Connect Custom Domain](/synthexa/guide/domain)
-- [SEO Settings](/synthexa/guide/seo)
+- [Contact](/synthexa/guide/support)
 
 ---
 
