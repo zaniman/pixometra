@@ -128,6 +128,7 @@ export default defineConfig({
               text: 'Cards',
               items: [
                 { text: 'CardPattern', link: '/synthexa/components/card-pattern' },
+                { text: 'CardServices', link: '/synthexa/components/card-services' },
               ]
             },
             {

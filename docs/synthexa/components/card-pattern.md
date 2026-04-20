@@ -28,6 +28,14 @@ CardPattern displays automation opportunities and workflow examples in an engagi
 
 Interaction is automated: hovering on the card transitions from Front → TerminalOff → TerminalOn.
 
+## How to Edit
+
+To customize CardPattern properties:
+
+1. **Select the component** — Click CardPattern directly on the canvas, OR find it in the **Layers** panel and click its name
+2. **Open Properties** — The Properties panel (right sidebar) displays all editable fields
+3. **Make changes** — Edit any property and see changes update in real-time
+
 ## Property Controls
 
 ![Property Controls](/images/guide/synthexa-75@2x.png)
@@ -73,51 +81,6 @@ Terminal-themed display elements that appear in hover states:
 | Property | Type | Default | Description |
 |----------|------|---------|-------------|
 | **Padding** | Number | 24 | Internal spacing within the card |
-
-## Usage Examples
-
-### Homepage Patterns Section
-
-CardPattern components are typically used in grid layouts to showcase workflow automation examples:
-
-```
-Workflow patterns we detect across most teams
-[Ptrn_01: Reporting]  [Ptrn_02: Onboarding]  [Ptrn_03: Reporting]
-[Ptrn_04: Sales]      [Ptrn_05: Support]     [Ptrn_06: Operations]
-```
-
-Each card displays:
-- Pattern icon with branded color
-- Pattern title and description
-- Hours saved per week
-- Department/category on hover
-
-### Customization Tips
-
-**Change the icon:**
-1. Click the card to select it
-2. In Properties, find the **Icon** field
-3. Choose from available Framer icons or insert a custom component
-4. Adjust **Icon Color** and **Accent Color** as needed
-
-**Update the metrics:**
-1. Edit **Right Bottom Text** to show different time savings
-2. Or update **Left Bottom Text** for category changes
-3. Changes appear on both Front and Terminal variants
-
-**Modify terminal text:**
-1. **Terminal Caption** — Update the command-line prompt text
-2. **Terminal Caption 2** — Change the result/output line
-3. **Terminal Description** — Add detailed automation information
-4. Uses Terminal color tokens for consistency
-
-## Best Practices
-
-- **Icons** — Use consistent icon styles across all pattern cards
-- **Metrics** — Keep time savings in the same format (e.g., "~4 hrs/week")
-- **Descriptions** — Keep descriptions concise (1-2 sentences max)
-- **Terminal Text** — Use realistic automation command formats for authenticity
-- **Consistency** — Use color tokens (BrandPrimary, TerminalPrimary) instead of hardcoded colors
 
 ## Next Steps
 
