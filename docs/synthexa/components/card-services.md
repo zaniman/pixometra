@@ -47,10 +47,3 @@ Each variant displays the same structure with a TerminalDashboard that shows ser
 ![CardServices properties](/images/guide/synthexa-79@2x.png)
 
 
-## Next Steps
-
-→ [CardPattern](/synthexa/components/card-pattern)
-
-→ [TerminalDashboard](/synthexa/components/terminal)
-
-→ [Other Components](/synthexa/components/other)

@@ -217,8 +217,3 @@ The **Gaps** property group controls all internal spacing:
 | **Label ↕ Track** | 8px | Gap between the slider label row and the track |
 | **Label ↕ Value** | 4px | Gap between an output label and its result value |
 
-## Next Steps
-
-→ [NotFoundGame](/synthexa/components/404-game)
-
-→ [TerminalImage](/synthexa/components/terminal-image)

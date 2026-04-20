@@ -120,8 +120,3 @@ Overlay shown when all 3 lives are lost:
 | **Score Label** | `SCORE:` |
 | **Retry CTA** | `TAP TO RETRY` |
 
-## Next Steps
-
-→ [TerminalImage](/synthexa/components/terminal-image)
-
-→ [Other Components](/synthexa/components/other)

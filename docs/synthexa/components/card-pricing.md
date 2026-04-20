@@ -137,10 +137,3 @@ The detailed features table at the bottom of the Pricing page is managed through
 
 To add or modify features in the comparison table, edit the [Pricing Collection](/synthexa/guide/cms-pricing).
 
-## Next Steps
-
-→ [CardPattern](/synthexa/components/card-pattern)
-
-→ [CardServices](/synthexa/components/card-services)
-
-→ [Other Components](/synthexa/components/other)

@@ -366,8 +366,3 @@ Layout: Equal halves
 - Panel 4: Status (System status)
 ```
 
-## Next Steps
-
-→ [ROICalculator](/synthexa/components/roi-calculator)
-
-→ [NotFoundGame](/synthexa/components/404-game)

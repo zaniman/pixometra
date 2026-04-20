@@ -49,10 +49,3 @@ CardTool includes three interactive variants that auto-switch on hover:
 
 The hover transition automatically progresses through all three variants: Default → TerminalOff → TerminalOn.
 
-## Next Steps
-
-→ [CardPattern](/synthexa/components/card-pattern)
-
-→ [CardServices](/synthexa/components/card-services)
-
-→ [Other Components](/synthexa/components/other)

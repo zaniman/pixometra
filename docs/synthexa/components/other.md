@@ -162,10 +162,3 @@ Edit footer navigation:
 - If broken, adjust component width on mobile breakpoint
 - Test on actual mobile device
 
-## Next Steps
-
-You now have a complete understanding of all SYNTHEXA components!
-
-Review the [Colors](/synthexa/design/colors) and [Typography](/synthexa/design/typography) sections to finalize your design system, then:
-
-→ [Publish Your Site](/synthexa/guide/publish)

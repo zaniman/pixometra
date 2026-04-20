@@ -82,6 +82,3 @@ Terminal-themed display elements that appear in hover states:
 |----------|------|---------|-------------|
 | **Padding** | Number | 24 | Internal spacing within the card |
 
-## Next Steps
-
-→ [Other Components](/synthexa/components/other)

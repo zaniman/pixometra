@@ -83,8 +83,3 @@ In the **[Cases CMS](/synthexa/guide/cms-cases#terminal-snapshot-setup)**, the *
 
 ![Add a New Company](/images/guide/synthexa-86@2x.png)
 
-## Next Steps
-
-→ [TerminalDashboard](/synthexa/components/terminal)
-
-→ [Other Components](/synthexa/components/other)

@@ -51,6 +51,3 @@ Edit each field directly in the Properties panel — no need to enter component 
 
 Defaults to the `/Terminal/TerminalSecondary` token. Change to any color or token as needed.
 
-## Next Steps
-
-→ [Other Components](/synthexa/components/other)

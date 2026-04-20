@@ -102,10 +102,3 @@ To edit a specific question and answer:
    - Press **Delete** key to remove that variant
 5. Update remaining question numbers if needed
 
-## Next Steps
-
-→ [CardPattern](/synthexa/components/card-pattern)
-
-→ [CardPricing](/synthexa/components/card-pricing)
-
-→ [Other Components](/synthexa/components/other)

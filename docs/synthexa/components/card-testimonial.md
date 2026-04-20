@@ -45,10 +45,3 @@ To customize CardTestimonial:
 | **Show Photo** | Toggle | Yes | Display the client's portrait photo |
 | **Show Company Name** | Toggle | Yes | Display the company name next to the person's title |
 
-## Next Steps
-
-→ [CardPattern](/synthexa/components/card-pattern)
-
-→ [CardServices](/synthexa/components/card-services)
-
-→ [Other Components](/synthexa/components/other)
