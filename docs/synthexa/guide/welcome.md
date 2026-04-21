@@ -26,7 +26,3 @@ In this documentation you'll discover how to:
 
 See SYNTHEXA in action:  
 → [**overly-customer-979509.framer.app**](https://overly-customer-979509.framer.app)
-
-## Next Steps
-
-Ready to get started? Jump to [Duplicate the Template →](/synthexa/guide/duplicate)

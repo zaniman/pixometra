@@ -145,7 +145,3 @@ Popular import plugins:
 - **CSV Import** — Import content from spreadsheet files
 - **Google Sheets** — Sync CMS entries directly from Google Sheets
 - **Notion** — Pull content from your Notion database
-
-## Next Steps
-
-→ [Blog Collection](/synthexa/guide/cms-blog)

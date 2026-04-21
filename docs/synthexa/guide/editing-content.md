@@ -209,9 +209,3 @@ If you want your site to use only one color theme (e.g., always Dark mode):
 4. Apply this to all tokens across Terminal, Background, Brand, Text, and Others groups
 
 Now your site will look identical regardless of system settings or theme preference. All variants will use the colors you specified.
-
-## Next Steps
-
-For dynamic content management, check out:
-
-→ [CMS Collections](/synthexa/guide/cms-overview)

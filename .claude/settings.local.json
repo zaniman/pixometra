@@ -79,7 +79,8 @@
       "Bash(node -e \"const d=require\\('/dev/stdin'\\);console.log\\(d.version\\)\")",
       "Bash(npm list *)",
       "Bash(node scripts/generate-pdf.mjs)",
-      "Bash(open /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/synthexa-docs.pdf)"
+      "Bash(open /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/synthexa-docs.pdf)",
+      "Bash(git diff *)"
     ]
   }
 }

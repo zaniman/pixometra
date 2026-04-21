@@ -121,7 +121,3 @@ Once saved, a new case study page is created at `/cases/:slug` with:
 - Company logo and testimonial
 - KPI dashboard
 - Terminal snapshot preview
-
-## Next Steps
-
-→ [Career Collection](/synthexa/guide/cms-career)

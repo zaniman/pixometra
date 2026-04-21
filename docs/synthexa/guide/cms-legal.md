@@ -98,7 +98,3 @@ When you create a new legal document, add a corresponding link in the footer:
 9. Publish
 
 The new legal document link now appears in the footer and directs to `/legal/:slug`.
-
-## Next Steps
-
-→ [Pricing Collection](/synthexa/guide/cms-pricing)

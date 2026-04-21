@@ -45,9 +45,3 @@ These pages **auto-generate** from your CMS entries. You never need to build ind
 :::tip
 Static pages like Homepage should be edited on the canvas, while repetitive content (blog posts, job listings) should go into CMS collections.
 :::
-
-## Next Steps
-
-Ready to edit content? Learn the techniques:
-
-→ [Editing Content](/synthexa/guide/editing-content)

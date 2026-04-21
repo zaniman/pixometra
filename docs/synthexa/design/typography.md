@@ -126,9 +126,3 @@ This ensures typography scales appropriately across all devices without manual a
 :::warning
 Never change individual element typography. Always edit the Text Style. Individual changes break consistency and are harder to maintain.
 :::
-
-## Next Steps
-
-Your design system is now fully customized! Time to explore the components:
-
-→ [TerminalDashboard Component](/synthexa/components/terminal)

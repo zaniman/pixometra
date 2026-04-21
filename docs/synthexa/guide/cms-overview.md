@@ -52,7 +52,3 @@ For other collections (Cases, Legal, Pricing), there are no dependencies.
 6. Publish your site
 
 The new item is now live (on next publish).
-
-## Next Steps
-
-→ [How to Edit CMS Content](/synthexa/guide/cms-edit)

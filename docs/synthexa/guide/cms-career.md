@@ -86,7 +86,3 @@ Once saved, a new job page is created at `/careers/:slug` with:
 - Full job description
 - Location and employment type
 - Application form
-
-## Next Steps
-
-→ [Legal Collection](/synthexa/guide/cms-legal)

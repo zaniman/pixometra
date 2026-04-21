@@ -311,7 +311,3 @@ Used primarily for creating 3D effects through inner shadows and drop shadows on
 - `/Others/LightStrong` — Strong highlight/glow for pronounced light effects
 - `/Others/ShadowSubtle` — Subtle shadow for soft depth
 - `/Others/ShadowStrong` — Strong shadow for pronounced depth
-
-## Next Steps
-
-→ [Typography](/synthexa/design/typography)

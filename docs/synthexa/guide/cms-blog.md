@@ -56,7 +56,3 @@ Once saved, a new page is created at `/blog/:slug` with:
 - Category
 - Publish date
 - Related articles (if set up)
-
-## Next Steps
-
-→ [Cases Collection](/synthexa/guide/cms-cases)

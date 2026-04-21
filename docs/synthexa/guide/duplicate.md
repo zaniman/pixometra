@@ -47,10 +47,3 @@ Typical next steps include:
 :::tip
 The original template remains unchanged. Your copied version is fully independent, so you can edit it freely without affecting the original project.
 :::
-
-## Next Steps
-
-Once you've duplicated the template, learn how to edit content and work with the design system:
-
-→ [Framer Basics](/synthexa/guide/framer-basics)  
-→ [Editing Content](/synthexa/guide/editing-content)

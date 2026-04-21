@@ -87,7 +87,3 @@ SYNTHEXA comes with a complete design system:
 - **15 text styles** from display headings to mono labels
 - **Two font families** — Inter (clean, readable) + IBM Plex Mono (terminal aesthetic)
 - **Consistent spacing** and layout rhythm throughout
-
-## Next Steps
-
-Ready to start building? Let's [Duplicate the Template →](/synthexa/guide/duplicate)

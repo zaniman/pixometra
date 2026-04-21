@@ -62,9 +62,3 @@ Reusable design and code components. Click **Assets** → **Components** to brow
 - **Code components** — Interactive elements (TerminalDashboard, ROICalculator, NotFoundGame)
 
 Drag a component onto the canvas to insert it.
-
-## Next Steps
-
-Now that you understand the Framer editor, let's explore the pages:
-
-→ [Pages Overview](/synthexa/guide/pages-overview)
